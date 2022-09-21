@@ -2,7 +2,7 @@
 ## Basic Bank System For The Spark Foundation GRIP 
 ##### Develop By Menna Mohamed
 
-Banky is a simple dynamic website which has the following specs.
+BM Bank is a simple dynamic website which has the following specs.
 
 - View all customers
 - Transfer money between customers
