@@ -1,4 +1,4 @@
-# Banky Website
+# BM Bank Website
 ## Basic Bank System For The Spark Foundation GRIP 
 ##### Develop By Menna Mohamed
 
