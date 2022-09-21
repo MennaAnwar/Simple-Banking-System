@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicons -->
+    <link href="assets/img/logo.png" rel="icon">
+    <link href="assets/img/logo.png" rel="apple-touch-icon">
+
+    <title>Clients</title>
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="assets/css/global.css" rel="stylesheet">
+    <link href="assets/css/animations.css" rel="stylesheet">
+
+    <link href="assets/css/page2.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light header">
+        <div class="container-fluid">
+            <a class="px-3 navbar-brand special-font" href="#">
+                <img src="assets/img/logo.png" class="d-inline-block logo" alt="">
+                BM BANK
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav text-center">
+                    <ul class="snip1211 mb-0">
+                        <li class="current"><a class="nav-link" aria-current="page" href="#"
+                                onclick="active(this)">Home</a></li>
+                        <li> <a class="nav-link" href="#clients" onclick="active(this)">Clients</a>
+                        </li>
+                        <li> <a class="nav-link" href="#History" onclick="active(this)">Transaction History</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div>
+        <div class="text-center">
+            <img id="transfer" src="assets/img/transfer.png">
+        </div>
+        <div class="row justify-content-evenly">
+            <div class="col-lg-4 col-md-4">
+                <div class="icon-box">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title special-font text-center">Sender Details</h5>
+                            <div id="senderName" class="text-center">
+                                <p>Name</p>
+                            </div>
+                            <div id="sendermail" class="text-center">
+                                <p>E-mail</p>
+                            </div>
+                            <div class="row form-floating">
+                                <input type="text" class="form-control" id="formGroupExampleInput2"
+                                    placeholder="Another input placeholder">
+                                <label for="floatingTextarea">Balance</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-4">
+                <div class="icon-box">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title special-font text-center">Receiver Details</h5>
+                            <div class="row form-floating mb-3">
+                                <input type="text" class="form-control" id="formGroupExampleInput2"
+                                    placeholder="Another input placeholder">
+                                <label for="floatingTextarea">Name</label>
+                            </div>
+                            <div class="row form-floating mb-3">
+                                <input type="text" class="form-control" id="formGroupExampleInput2"
+                                    placeholder="Another input placeholder">
+                                <label for="floatingTextarea">Email</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-grid gap-2 col-6 mx-auto mt-1 mb-1">
+        <button class="btn btn-transfer" type="button">Button</button>
+    </div>
+
+
+    <footer class="border-top text-muted text-center">
+        <span>© 2022 <span class="special-font">BM Bank</span></span>
+        <span>Designed by <span class="special-font">BM BANK Software Team</span></span>
+    </footer>
+
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/page1.js"></script>
+
+</body>
+
+</html>

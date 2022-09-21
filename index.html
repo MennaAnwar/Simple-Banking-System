@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/logo.png" rel="apple-touch-icon">
+
+  <title>Clients</title>
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="assets/css/global.css" rel="stylesheet">
+  <link href="assets/css/animations.css" rel="stylesheet">
+
+  <link href="assets/css/page1.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light header">
+    <div class="container-fluid">
+      <a class="px-3 navbar-brand special-font" href="#">
+        <img src="assets/img/logo.png" class="d-inline-block logo" alt="">
+        BM BANK
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav text-center">
+          <ul class="snip1211 mb-0">
+            <li class="current"><a class="nav-link" aria-current="page" href="#" onclick="active(this)">Home</a></li>
+            <li> <a class="nav-link" href="#clients" onclick="active(this)">Clients</a>
+            </li>
+            <li> <a class="nav-link" href="#History" onclick="active(this)">Transaction History</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center hero">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h1 class="special-font">Welcome to <span id="bank">BM BANK<span id="line"></span></span>
+          </h1>
+          <p class='sub-heading special-font'>Serving clients is our priority</p>
+          <!-- <div><a href="courses-dashboard" class="btn-get-started btn-primary">Upload Your Content</a></div> -->
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img position-relative">
+          <img src="assets/img/welcome.png" class="welcome up-down">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <div id="clients" class="p-5">
+    <h2 class="text-center special-font">Clients</h2>
+    <table class="table table-hover  animate one fadeInUp text-center">
+      <thead>
+        <tr class="table-primary">
+          <th scope="col">#</th>
+          <th scope="col">Client Name</th>
+          <th scope="col">Email</th>
+          <th scope="col">Balance</th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td class="client-name">Client 1</td>
+          <td class="client-name">x@y.com</td>
+          <td>1</td>
+          <td class="view special-font" onclick="transfer()">Tranfer</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td class="client-name">Client 2</td>
+          <td class="client-name">x@y.com</td>
+          <td>2</td>
+          <td class="view special-font">Tranfer</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td class="client-name">Client 3</td>
+          <td class="client-name">x@y.com</td>
+          <td>3</td>
+          <td class="view special-font">Tranfer</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td class="client-name">Client 4</td>
+          <td class="client-name">x@y.com</td>
+          <td>4</td>
+          <td class="view special-font">Tranfer</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td class="client-name">Client 5</td>
+          <td class="client-name">x@y.com</td>
+          <td>5</td>
+          <td class="view special-font">Tranfer</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td class="client-name">Client 6</td>
+          <td class="client-name">x@y.com</td>
+          <td>6</td>
+          <td class="view special-font">Tranfer</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td class="client-name">Client 7</td>
+          <td class="client-name">x@y.com</td>
+          <td>7</td>
+          <td class="view special-font">Tranfer</td>
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td class="client-name">Client 8</td>
+          <td class="client-name">x@y.com</td>
+          <td>8</td>
+          <td class="view special-font">Tranfer</td>
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td class="client-name">Client 9</td>
+          <td class="client-name">x@y.com</td>
+          <td>9</td>
+          <td class="view special-font">Tranfer</td>
+        </tr>
+        <tr>
+          <th scope="row">10</th>
+          <td class="client-name">Client 10</td>
+          <td class="client-name">x@y.com</td>
+          <td>10</td>
+          <td class="view special-font">Tranfer</td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <div id="History" class="p-5">
+    <h2 class="text-center special-font">Transaction History</h2>
+    <table class="table table-hover  animate one fadeInUp">
+      <thead>
+        <tr class="table-primary">
+          <th scope="col">#</th>
+          <th scope="col">Client Name</th>
+          <th scope="col">Email</th>
+          <th scope="col">Balance</th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td class="client-name">Client 1</td>
+          <td class="client-name">x@y.com</td>
+          <td>1</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td class="client-name">Client 2</td>
+          <td class="client-name">x@y.com</td>
+          <td>2</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td class="client-name">Client 3</td>
+          <td class="client-name">x@y.com</td>
+          <td>3</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td class="client-name">Client 4</td>
+          <td class="client-name">x@y.com</td>
+          <td>4</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td class="client-name">Client 5</td>
+          <td class="client-name">x@y.com</td>
+          <td>5</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td class="client-name">Client 6</td>
+          <td class="client-name">x@y.com</td>
+          <td>6</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td class="client-name">Client 7</td>
+          <td class="client-name">x@y.com</td>
+          <td>7</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td class="client-name">Client 8</td>
+          <td class="client-name">x@y.com</td>
+          <td>8</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td class="client-name">Client 9</td>
+          <td class="client-name">x@y.com</td>
+          <td>9</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">10</th>
+          <td class="client-name">Client 10</td>
+          <td class="client-name">x@y.com</td>
+          <td>10</td>
+          <td></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <footer class="border-top text-muted text-center">
+    <span>© 2022 <span class="special-font">BM Bank</span></span>
+    <span>Designed by <span class="special-font">BM BANK Software Team</span></span>
+  </footer>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/page1.js"></script>
+
+</body>
+
+</html>
